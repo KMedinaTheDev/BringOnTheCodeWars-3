@@ -25,24 +25,3 @@ function list(names) {
     return arr.join();
   }
 }
-
-
-//my 1st attempt..didn't work pass all the test
-// function list(names){
-//   //
-//   let string = "";
-//   if(names === undefined){ //if object is empty, instead of undefined return an empty string
-//   return string
-//     }
-//   //need a loop to run through each array element being passed in
-//   for(let i=0; i < names.length; i++){
-//   //I needed another conditional to make this work with more names
-//   if(i >= names.length-2){
-//     string += names[i]["name"] + "&" //so last two are seperated with ampersand
-//     }
-//     else{
-//      string += names[i]["name"] + ','; //name is a property of each object!worked with one name
-//     }
-//   }
-//   return string.slice(0, string.length-2)
-// }
